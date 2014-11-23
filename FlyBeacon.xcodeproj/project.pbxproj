@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579C23551A22949000BCD2C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C23541A22949000BCD2C2 /* AppDelegate.swift */; };
+		579C23571A22949000BCD2C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C23561A22949000BCD2C2 /* ViewController.swift */; };
+		579C235A1A22949000BCD2C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579C23581A22949000BCD2C2 /* Main.storyboard */; };
+		579C235C1A22949000BCD2C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C235B1A22949000BCD2C2 /* Images.xcassets */; };
+		579C235F1A22949000BCD2C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579C235D1A22949000BCD2C2 /* LaunchScreen.xib */; };
+		579C236B1A22949000BCD2C2 /* FlyBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C236A1A22949000BCD2C2 /* FlyBeaconTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579C23651A22949000BCD2C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579C23471A22948F00BCD2C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579C234E1A22948F00BCD2C2;
+			remoteInfo = FlyBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		579C234F1A22949000BCD2C2 /* FlyBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C23531A22949000BCD2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579C23541A22949000BCD2C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		579C23561A22949000BCD2C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		579C23591A22949000BCD2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579C235B1A22949000BCD2C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		579C235E1A22949000BCD2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		579C23641A22949000BCD2C2 /* FlyBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C23691A22949000BCD2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579C236A1A22949000BCD2C2 /* FlyBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBeaconTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579C234C1A22948F00BCD2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579C23611A22949000BCD2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579C23461A22948F00BCD2C2 = {
+			isa = PBXGroup;
+			children = (
+				579C23511A22949000BCD2C2 /* FlyBeacon */,
+				579C23671A22949000BCD2C2 /* FlyBeaconTests */,
+				579C23501A22949000BCD2C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579C23501A22949000BCD2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579C234F1A22949000BCD2C2 /* FlyBeacon.app */,
+				579C23641A22949000BCD2C2 /* FlyBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579C23511A22949000BCD2C2 /* FlyBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				579C23541A22949000BCD2C2 /* AppDelegate.swift */,
+				579C23561A22949000BCD2C2 /* ViewController.swift */,
+				579C23581A22949000BCD2C2 /* Main.storyboard */,
+				579C235B1A22949000BCD2C2 /* Images.xcassets */,
+				579C235D1A22949000BCD2C2 /* LaunchScreen.xib */,
+				579C23521A22949000BCD2C2 /* Supporting Files */,
+			);
+			path = FlyBeacon;
+			sourceTree = "<group>";
+		};
+		579C23521A22949000BCD2C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579C23531A22949000BCD2C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		579C23671A22949000BCD2C2 /* FlyBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				579C236A1A22949000BCD2C2 /* FlyBeaconTests.swift */,
+				579C23681A22949000BCD2C2 /* Supporting Files */,
+			);
+			path = FlyBeaconTests;
+			sourceTree = "<group>";
+		};
+		579C23681A22949000BCD2C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579C23691A22949000BCD2C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579C234E1A22948F00BCD2C2 /* FlyBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579C236E1A22949000BCD2C2 /* Build configuration list for PBXNativeTarget "FlyBeacon" */;
+			buildPhases = (
+				579C234B1A22948F00BCD2C2 /* Sources */,
+				579C234C1A22948F00BCD2C2 /* Frameworks */,
+				579C234D1A22948F00BCD2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyBeacon;
+			productName = FlyBeacon;
+			productReference = 579C234F1A22949000BCD2C2 /* FlyBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579C23631A22949000BCD2C2 /* FlyBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579C23711A22949000BCD2C2 /* Build configuration list for PBXNativeTarget "FlyBeaconTests" */;
+			buildPhases = (
+				579C23601A22949000BCD2C2 /* Sources */,
+				579C23611A22949000BCD2C2 /* Frameworks */,
+				579C23621A22949000BCD2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579C23661A22949000BCD2C2 /* PBXTargetDependency */,
+			);
+			name = FlyBeaconTests;
+			productName = FlyBeaconTests;
+			productReference = 579C23641A22949000BCD2C2 /* FlyBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579C23471A22948F00BCD2C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sekai No";
+				TargetAttributes = {
+					579C234E1A22948F00BCD2C2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					579C23631A22949000BCD2C2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 579C234E1A22948F00BCD2C2;
+					};
+				};
+			};
+			buildConfigurationList = 579C234A1A22948F00BCD2C2 /* Build configuration list for PBXProject "FlyBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579C23461A22948F00BCD2C2;
+			productRefGroup = 579C23501A22949000BCD2C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579C234E1A22948F00BCD2C2 /* FlyBeacon */,
+				579C23631A22949000BCD2C2 /* FlyBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579C234D1A22948F00BCD2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579C235A1A22949000BCD2C2 /* Main.storyboard in Resources */,
+				579C235F1A22949000BCD2C2 /* LaunchScreen.xib in Resources */,
+				579C235C1A22949000BCD2C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579C23621A22949000BCD2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579C234B1A22948F00BCD2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579C23571A22949000BCD2C2 /* ViewController.swift in Sources */,
+				579C23551A22949000BCD2C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579C23601A22949000BCD2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579C236B1A22949000BCD2C2 /* FlyBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		579C23661A22949000BCD2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579C234E1A22948F00BCD2C2 /* FlyBeacon */;
+			targetProxy = 579C23651A22949000BCD2C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579C23581A22949000BCD2C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579C23591A22949000BCD2C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579C235D1A22949000BCD2C2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579C235E1A22949000BCD2C2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579C236C1A22949000BCD2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		579C236D1A22949000BCD2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579C236F1A22949000BCD2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		579C23701A22949000BCD2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		579C23721A22949000BCD2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyBeacon.app/FlyBeacon";
+			};
+			name = Debug;
+		};
+		579C23731A22949000BCD2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyBeacon.app/FlyBeacon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579C234A1A22948F00BCD2C2 /* Build configuration list for PBXProject "FlyBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579C236C1A22949000BCD2C2 /* Debug */,
+				579C236D1A22949000BCD2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579C236E1A22949000BCD2C2 /* Build configuration list for PBXNativeTarget "FlyBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579C236F1A22949000BCD2C2 /* Debug */,
+				579C23701A22949000BCD2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		579C23711A22949000BCD2C2 /* Build configuration list for PBXNativeTarget "FlyBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579C23721A22949000BCD2C2 /* Debug */,
+				579C23731A22949000BCD2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579C23471A22948F00BCD2C2 /* Project object */;
+}
