@@ -13,6 +13,19 @@
 		579C235C1A22949000BCD2C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C235B1A22949000BCD2C2 /* Images.xcassets */; };
 		579C235F1A22949000BCD2C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579C235D1A22949000BCD2C2 /* LaunchScreen.xib */; };
 		579C236B1A22949000BCD2C2 /* FlyBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C236A1A22949000BCD2C2 /* FlyBeaconTests.swift */; };
+		579C237A1A2299EA00BCD2C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579C23791A2299EA00BCD2C2 /* AudioToolbox.framework */; };
+		579C237C1A2299F100BCD2C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579C237B1A2299F100BCD2C2 /* AVFoundation.framework */; };
+		579C23851A229A6500BCD2C2 /* JMFSKModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23801A229A6500BCD2C2 /* JMFSKModem.m */; };
+		579C23861A229A6500BCD2C2 /* JMFSKModemConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23831A229A6500BCD2C2 /* JMFSKModemConfiguration.m */; };
+		579C239D1A229C0100BCD2C2 /* JMAudioInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23881A229C0100BCD2C2 /* JMAudioInputStream.m */; };
+		579C239E1A229C0100BCD2C2 /* JMAudioOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C238A1A229C0100BCD2C2 /* JMAudioOutputStream.m */; };
+		579C239F1A229C0100BCD2C2 /* JMAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C238D1A229C0100BCD2C2 /* JMAudioStream.m */; };
+		579C23A01A229C0100BCD2C2 /* JMFSKRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C238F1A229C0100BCD2C2 /* JMFSKRecognizer.m */; };
+		579C23A11A229C0100BCD2C2 /* JMFSKSerialGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23921A229C0100BCD2C2 /* JMFSKSerialGenerator.m */; };
+		579C23A21A229C0100BCD2C2 /* JMProtocolDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23951A229C0100BCD2C2 /* JMProtocolDecoder.m */; };
+		579C23A31A229C0100BCD2C2 /* JMProtocolEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C23981A229C0100BCD2C2 /* JMProtocolEncoder.m */; };
+		579C23A41A229C0100BCD2C2 /* JMQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C239A1A229C0100BCD2C2 /* JMQueue.m */; };
+		579C23A51A229C0100BCD2C2 /* JMQueueNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 579C239C1A229C0100BCD2C2 /* JMQueueNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,37 @@
 		579C23641A22949000BCD2C2 /* FlyBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579C23691A22949000BCD2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579C236A1A22949000BCD2C2 /* FlyBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBeaconTests.swift; sourceTree = "<group>"; };
+		579C23791A2299EA00BCD2C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		579C237B1A2299F100BCD2C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		579C237F1A229A6500BCD2C2 /* JMFSKModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModem.h; sourceTree = "<group>"; };
+		579C23801A229A6500BCD2C2 /* JMFSKModem.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = JMFSKModem.m; sourceTree = "<group>"; };
+		579C23811A229A6500BCD2C2 /* JMPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPrefix.pch; sourceTree = "<group>"; };
+		579C23821A229A6500BCD2C2 /* JMFSKModemConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemConfiguration.h; sourceTree = "<group>"; };
+		579C23831A229A6500BCD2C2 /* JMFSKModemConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKModemConfiguration.m; sourceTree = "<group>"; };
+		579C23841A229A6500BCD2C2 /* JMFSKModemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKModemDelegate.h; sourceTree = "<group>"; };
+		579C23871A229C0100BCD2C2 /* JMAudioInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioInputStream.h; sourceTree = "<group>"; };
+		579C23881A229C0100BCD2C2 /* JMAudioInputStream.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = JMAudioInputStream.m; sourceTree = "<group>"; };
+		579C23891A229C0100BCD2C2 /* JMAudioOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioOutputStream.h; sourceTree = "<group>"; };
+		579C238A1A229C0100BCD2C2 /* JMAudioOutputStream.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = JMAudioOutputStream.m; sourceTree = "<group>"; };
+		579C238B1A229C0100BCD2C2 /* JMAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioSource.h; sourceTree = "<group>"; };
+		579C238C1A229C0100BCD2C2 /* JMAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMAudioStream.h; sourceTree = "<group>"; };
+		579C238D1A229C0100BCD2C2 /* JMAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMAudioStream.m; sourceTree = "<group>"; };
+		579C238E1A229C0100BCD2C2 /* JMFSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKRecognizer.h; sourceTree = "<group>"; };
+		579C238F1A229C0100BCD2C2 /* JMFSKRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFSKRecognizer.m; sourceTree = "<group>"; };
+		579C23901A229C0100BCD2C2 /* JMFSKRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKRecognizerDelegate.h; sourceTree = "<group>"; };
+		579C23911A229C0100BCD2C2 /* JMFSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFSKSerialGenerator.h; sourceTree = "<group>"; };
+		579C23921A229C0100BCD2C2 /* JMFSKSerialGenerator.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = JMFSKSerialGenerator.m; sourceTree = "<group>"; };
+		579C23931A229C0100BCD2C2 /* JMPatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPatternRecognizer.h; sourceTree = "<group>"; };
+		579C23941A229C0100BCD2C2 /* JMProtocolDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolDecoder.h; sourceTree = "<group>"; };
+		579C23951A229C0100BCD2C2 /* JMProtocolDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMProtocolDecoder.m; sourceTree = "<group>"; };
+		579C23961A229C0100BCD2C2 /* JMProtocolDecoderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolDecoderDelegate.h; sourceTree = "<group>"; };
+		579C23971A229C0100BCD2C2 /* JMProtocolEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMProtocolEncoder.h; sourceTree = "<group>"; };
+		579C23981A229C0100BCD2C2 /* JMProtocolEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMProtocolEncoder.m; sourceTree = "<group>"; };
+		579C23991A229C0100BCD2C2 /* JMQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQueue.h; sourceTree = "<group>"; };
+		579C239A1A229C0100BCD2C2 /* JMQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueue.m; sourceTree = "<group>"; };
+		579C239B1A229C0100BCD2C2 /* JMQueueNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQueueNode.h; sourceTree = "<group>"; };
+		579C239C1A229C0100BCD2C2 /* JMQueueNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQueueNode.m; sourceTree = "<group>"; };
+		579C23A61A229C8000BCD2C2 /* FlyBeacon-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlyBeacon-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579C237C1A2299F100BCD2C2 /* AVFoundation.framework in Frameworks */,
+				579C237A1A2299EA00BCD2C2 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				579C23511A22949000BCD2C2 /* FlyBeacon */,
+				579C23741A22992200BCD2C2 /* Frameworks */,
 				579C23671A22949000BCD2C2 /* FlyBeaconTests */,
 				579C23501A22949000BCD2C2 /* Products */,
 			);
@@ -77,6 +124,7 @@
 		579C23511A22949000BCD2C2 /* FlyBeacon */ = {
 			isa = PBXGroup;
 			children = (
+				579C237D1A229A3300BCD2C2 /* FSKModem */,
 				579C23541A22949000BCD2C2 /* AppDelegate.swift */,
 				579C23561A22949000BCD2C2 /* ViewController.swift */,
 				579C23581A22949000BCD2C2 /* Main.storyboard */,
@@ -91,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				579C23531A22949000BCD2C2 /* Info.plist */,
+				579C23A61A229C8000BCD2C2 /* FlyBeacon-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +159,50 @@
 				579C23691A22949000BCD2C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		579C23741A22992200BCD2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579C237B1A2299F100BCD2C2 /* AVFoundation.framework */,
+				579C23791A2299EA00BCD2C2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579C237D1A229A3300BCD2C2 /* FSKModem */ = {
+			isa = PBXGroup;
+			children = (
+				579C23871A229C0100BCD2C2 /* JMAudioInputStream.h */,
+				579C23881A229C0100BCD2C2 /* JMAudioInputStream.m */,
+				579C23891A229C0100BCD2C2 /* JMAudioOutputStream.h */,
+				579C238A1A229C0100BCD2C2 /* JMAudioOutputStream.m */,
+				579C238B1A229C0100BCD2C2 /* JMAudioSource.h */,
+				579C238C1A229C0100BCD2C2 /* JMAudioStream.h */,
+				579C238D1A229C0100BCD2C2 /* JMAudioStream.m */,
+				579C238E1A229C0100BCD2C2 /* JMFSKRecognizer.h */,
+				579C238F1A229C0100BCD2C2 /* JMFSKRecognizer.m */,
+				579C23901A229C0100BCD2C2 /* JMFSKRecognizerDelegate.h */,
+				579C23911A229C0100BCD2C2 /* JMFSKSerialGenerator.h */,
+				579C23921A229C0100BCD2C2 /* JMFSKSerialGenerator.m */,
+				579C23931A229C0100BCD2C2 /* JMPatternRecognizer.h */,
+				579C23941A229C0100BCD2C2 /* JMProtocolDecoder.h */,
+				579C23951A229C0100BCD2C2 /* JMProtocolDecoder.m */,
+				579C23961A229C0100BCD2C2 /* JMProtocolDecoderDelegate.h */,
+				579C23971A229C0100BCD2C2 /* JMProtocolEncoder.h */,
+				579C23981A229C0100BCD2C2 /* JMProtocolEncoder.m */,
+				579C23991A229C0100BCD2C2 /* JMQueue.h */,
+				579C239A1A229C0100BCD2C2 /* JMQueue.m */,
+				579C239B1A229C0100BCD2C2 /* JMQueueNode.h */,
+				579C239C1A229C0100BCD2C2 /* JMQueueNode.m */,
+				579C237F1A229A6500BCD2C2 /* JMFSKModem.h */,
+				579C23801A229A6500BCD2C2 /* JMFSKModem.m */,
+				579C23811A229A6500BCD2C2 /* JMPrefix.pch */,
+				579C23821A229A6500BCD2C2 /* JMFSKModemConfiguration.h */,
+				579C23831A229A6500BCD2C2 /* JMFSKModemConfiguration.m */,
+				579C23841A229A6500BCD2C2 /* JMFSKModemDelegate.h */,
+			);
+			path = FSKModem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +254,7 @@
 				TargetAttributes = {
 					579C234E1A22948F00BCD2C2 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8U7J5S7RGC;
 					};
 					579C23631A22949000BCD2C2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -212,8 +306,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579C239D1A229C0100BCD2C2 /* JMAudioInputStream.m in Sources */,
 				579C23571A22949000BCD2C2 /* ViewController.swift in Sources */,
+				579C23861A229A6500BCD2C2 /* JMFSKModemConfiguration.m in Sources */,
+				579C23A31A229C0100BCD2C2 /* JMProtocolEncoder.m in Sources */,
 				579C23551A22949000BCD2C2 /* AppDelegate.swift in Sources */,
+				579C239E1A229C0100BCD2C2 /* JMAudioOutputStream.m in Sources */,
+				579C239F1A229C0100BCD2C2 /* JMAudioStream.m in Sources */,
+				579C23851A229A6500BCD2C2 /* JMFSKModem.m in Sources */,
+				579C23A51A229C0100BCD2C2 /* JMQueueNode.m in Sources */,
+				579C23A41A229C0100BCD2C2 /* JMQueue.m in Sources */,
+				579C23A21A229C0100BCD2C2 /* JMProtocolDecoder.m in Sources */,
+				579C23A11A229C0100BCD2C2 /* JMFSKSerialGenerator.m in Sources */,
+				579C23A01A229C0100BCD2C2 /* JMFSKRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlyBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlyBeacon/FlyBeacon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FlyBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlyBeacon/FlyBeacon-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +519,7 @@
 				579C23701A22949000BCD2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		579C23711A22949000BCD2C2 /* Build configuration list for PBXNativeTarget "FlyBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +528,7 @@
 				579C23731A22949000BCD2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

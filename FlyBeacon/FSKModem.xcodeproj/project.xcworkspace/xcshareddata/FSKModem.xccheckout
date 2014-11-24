@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E54009D-DCB4-4132-AA30-9C4E35A983DD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FSKModem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73A1FB81408BE05265DAA9712F17FEFEA1460D4B</key>
+		<string>github.com:jensmeder/FSKModem.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FSKModem/FSKModem.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73A1FB81408BE05265DAA9712F17FEFEA1460D4B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jensmeder/FSKModem.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73A1FB81408BE05265DAA9712F17FEFEA1460D4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73A1FB81408BE05265DAA9712F17FEFEA1460D4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FSKModem</string>
+		</dict>
+	</array>
+</dict>
+</plist>
